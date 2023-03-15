@@ -15,7 +15,10 @@
             opacity: 1;
             animation: fadein 3s forwards;
         }
-        h2 {
+        h1 {font-weight: 400;
+            margin-bottom: 25px;
+        }
+        h3 {
             font-weight: 300;
             margin-bottom: 25px;
         }
@@ -46,7 +49,7 @@
             border-radius: 25px; /* Roundness */
             animation: proanimate 2s;
         }
-        #barpercent h3 {
+        #barpercent h4 {
             color: white; /* Bar percentage text colour */
             margin: 0; padding: 0;
             opacity: 1;
@@ -63,13 +66,13 @@
         }
 
         @media screen and (max-width:600px) {
-            img {
-                width: 60%;
-            }
             h1 {
-                font-size: 1.3em;
+                font-size: 2.5em;
             }
             h2 {
+                font-size: 1.3em;
+            }
+            h3 {
                 margin: 1.1em;
                 font-size: 1.1em;
             }
@@ -82,10 +85,10 @@
 </head>
 <body>
     <div id="main">
-        <img src="logo.png" alt="Logo Image">
-        <h1>An Ethereum Oracle That Doesn't Suck</h1>
-        <h2>Eigenfeed is a permissionless oracle network built as a public good on top of Eigenlayer. Soon™. </h2>
-        <div id="progress"><div id="fill"><div id="barpercent"><h3>35%</h3></div></div></div>
+        <h1>Eigenfeed</h1>
+        <h2>An Ethereum Oracle That Doesn't Suck</h2>
+        <h3>Eigenfeed is a permissionless oracle network built as a public good on top of Eigenlayer. Soon™. </h3>
+        <div id="progress"><div id="fill"><div id="barpercent"><h4>35%</h4></div></div></div>
     </div>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </body>
